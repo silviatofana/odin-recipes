@@ -62,3 +62,31 @@ ul {
     font-size: 15px;
     margin-left: 1px;
 }
+
+main{
+    margin-right: 60px;
+    width: 70%;
+    float: left;
+    padding-top: 40px;
+}
+
+.main-video .h4 {
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.main-video .video-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-video .video-nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.main-video .video-nav .left-video-nav li:not(:last-child){
+    margin-right: 5px;
+}
